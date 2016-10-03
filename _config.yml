@@ -7,10 +7,10 @@ url: "https://tedli.github.io/"
 title_description: "程序猿"
 title_image: "http://www.91feizhuliu.com/uploads/4b7bc60ec643b45e/16.jpg"
 google_analytics: "UA-85063279-1"
-disqus_account: cartenoire
+disqus_account: lz812
 github_repository: https://github.com/tedli
 addthis_id: ra-57f102bcceba7a67
-post_limit: 5
+post_limit: 10
 
 # Social usernames/URLs
 github_username:  tedli
