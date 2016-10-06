@@ -4,7 +4,7 @@ title:      搭建ppmessage开发环境
 date:       2016-10-06 12:37:45
 summary:    使用Docker、docker-compose搭建ppmessage的开发环境
 categories: Docker
-thumbnail: linux
+thumbnail: cloud
 tags:
  - Docker
  - docker-compose
@@ -38,7 +38,7 @@ tags:
 这里要**注意**`Docker registry`有阿里云的源，最好配上国内的源，不然`pull`镜像时会很慢，甚至不能成功。
 
 
-## 我的[ppmessage][1] fork
+## 我的[ppmessage fork][4]
 
 由于刚开始学习[ppmessage][1]，只`fork`了官方的仓库，以后深入学习，可以考虑给官方提`pull request`。`Dockerfile`和`docker-compose.yml`已经写好了。如果有可用的`Docker`环境的话，应该是开箱即用的。
 
@@ -185,3 +185,4 @@ services:
 [1]: https://www.ppmessage.cn/
 [2]: https://tedli.github.io/docker/2016/10/05/do-not-use-container-as-vm/
 [3]: http://www.jianshu.com/p/9b362cdee2ab
+[4]: https://github.com/tedli/ppmessage
