@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      ppmessage学习：一
+title:      理解ppmessage：一
 date:       2016-10-09 09:14:35
 summary:    初步理解ppmessage处理流程，扩展ppcom
 categories: ppmessage
-thumbnail: fa-first-order
+thumbnail: book
 tags:
  - ppmessage
  - angularjs
@@ -165,5 +165,5 @@ def dive_websocket():
 **未完待续**
 
 
-接下来的过程还要调用api进行创建设备、创建用户、创建回话等。之后通过websocket订阅消息事件，on_message函数为收到信息事件的毁掉函数。理论上这么一个流程，基本上就能通过编写代码收发消息了。如果跟微信的消息api对接，理论上可以将微信“伪装”成ppcom。
+接下来的过程还要调用api进行创建设备、创建用户、创建回话等。之后通过websocket订阅消息事件，on_message函数为收到信息事件的回调函数。理论上这么一个流程，基本上就能通过编写代码收发消息了。如果跟微信的消息api对接，理论上可以将微信“伪装”成ppcom。
 目前还局限于基于代码的猜测性理解，还需要调试验证。**后续更新**。
