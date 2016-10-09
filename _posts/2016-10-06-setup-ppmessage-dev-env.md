@@ -171,6 +171,12 @@ services:
     command: [--character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci]
 {% endhighlight %}
 
+执行
+```
+docker-compose up -d
+```
+将后台运行起来。
+
 `mysql`的参数要有上面写的，不然会插入中文行时会报错。`/ppmessage/db/create.py`和`/ppmessage/db/sqlmysql.py`中，连接串后加了`?charset=utf8mb4`，不然插入中文行时`pymysql`抛错。
 
 ![mysql]({{ site.baseurl }}/images/mysql-charset.png)
