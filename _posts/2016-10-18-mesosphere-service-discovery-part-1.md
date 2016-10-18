@@ -8,7 +8,7 @@ thumbnail: fa-battery-quarter
 tags:
  - mesosphere
  - DCOS
- - marathon-lb
+ - marathon
 ---
 
 # 通过DCOS及marathon-lb实现负载均衡与服务发现：一
