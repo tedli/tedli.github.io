@@ -40,4 +40,7 @@ Marathon-lb是基于HAProxy的，是一个快速的代理和负载均衡器。HA
 - 将marathon-lb用作公网负载均衡和服务发现机制。用marathon-lb路由公网的流量。你可以在内网或外网（取决于你的业务）DNS中将外网出口的IP地址配成A记录。
 
 
+**未完、待续**
+
+
 [1]: https://mesosphere.com/blog/2015/12/04/dcos-marathon-lb/
