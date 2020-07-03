@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC:300italic,400italic,400,300,700);
 
 /* Colours */
 $twitter:        #6dabda;
@@ -41,7 +41,7 @@ html {
 }
 
 body {
-	font-family: 'Noto Sans SC', sans-serif;
+	font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
@@ -237,7 +237,7 @@ ul {
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Montserrat', 'Noto Sans SC', sans-serif;
 		color: $light-blue;
 		margin-top: 0px;
 		padding-top: 15px;

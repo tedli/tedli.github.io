@@ -1,10 +1,10 @@
 # Site settings
-title: "Ted Li"
+title: "李成精"
 email: lizhen@outlook.jp
 description: "码农"
 baseurl: ""
 url: "https://tedli.github.io/"
-title_description: "程序猿"
+title_description: "某云首席风水师"
 title_image: "https://tedli.github.io/static/WechatIMG1.jpeg"
 google_analytics: "UA-85063279-1"
 disqus_account: lizhen
