@@ -3,13 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
-
-@font-face {
-	font-family: 'WenQuanYi Zen Hei';
-	src: url("https://tedli.github.io/static/fonts/wqy-zenhei.woff2") format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC);
 
 /* Colours */
 $twitter:        #6dabda;
@@ -47,7 +41,7 @@ html {
 }
 
 body {
-	font-family: 'WenQuanYi Zen Hei', sans-serif;
+	font-family: 'Noto Sans SC', sans-serif;
 	font-weight: 300;
 	background-color: $dark;
 	color: $white;
